@@ -7,3 +7,5 @@ Components
 - Adafruit RGB Matrix HAT + RTC (Product ID: 2345)
 - 64x64 RGB LED Matrix Panel, 3mm pitch (Product ID: 3649)
 - 5V 10A power supply
+
+Start of the project
