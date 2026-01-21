@@ -31,8 +31,8 @@ Total: ~15W typical, ~25W maximum
 - Or use official Raspberry Pi 15W USB-C power supply
   
 ## Safety Notes
-Never exceed voltage ratings
-Use fuses on all power inputs
-Ensure proper grounding
-Keep high-power audio circuit isolated
-Use insulated connectors and enclosures
+- Never exceed voltage ratings
+- Use fuses on all power inputs
+- Ensure proper grounding
+- Keep high-power audio circuit isolated
+- Use insulated connectors and enclosures
