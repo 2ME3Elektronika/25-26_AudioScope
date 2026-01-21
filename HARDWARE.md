@@ -13,12 +13,34 @@
    - For powering the LED matrix
    - Minimum 4A for full brightness on 64x64 matrix
 
+### Audio Input Hardware
+
+#### For Low-Level Signals (10mV-1V)
+  **ADS1115 16-Bit ADC**
+   - 4-channel, 16-bit resolution
+   - I2C interface
+   - Programmable gain amplifier (PGA)
+   - Adafruit Product ID: 1085 or compatible
+
+  **Input Protection Circuit Components:**
+   - 1x Voltage divider resistors (10kΩ and 1kΩ)
+   - 1x Capacitor 10µF (DC blocking)
+   - 1x Op-amp (optional): TL072 or similar for signal conditioning
+   - 2x Zener diodes 3.3V (input protection)
+   - BNC or 3.5mm jack connector
+
 ### For High-Power Audio (40W Output)
 #### USB Audio Interface
 - Any USB audio interface compatible with Raspberry Pi
 - Recommended: Behringer UCA202 or similar
 - Line-level input capability
 
+**Voltage Divider/Attenuator Circuit:**
+- Resistors: 100kΩ and 10kΩ (10:1 attenuation)
+- Capacitor: 100µF (power supply decoupling)
+- Heat-shrink tubing or enclosure
+- Speaker wire connectors
+     
 #### Menu/Display Components
 **Character LCD 20x4 with I2C backpack** OR **128x64 OLED Display**
    - For menu system and settings display
