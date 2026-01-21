@@ -11,5 +11,9 @@
 ## Start Of The Installation
 ## Step 1
 ### Installation of a OS in the SD card
-To be able to start coding in python, firstly, it is needed to have a sd card with atleast 8gb of space to install inside of it the raspbian OS.
+To be able to start coding in python, firstly, it is needed to have a sd card with atleast 8gb of space to install inside the raspbian OS.
 (https://www.raspberrypi.com/software/operating-systems/)
+To be able to put the OS in a recognizable way for the raspberry we will use Raspberry Pi Imager.
+(https://www.raspberrypi.com/software/)
+To know how to do it you can follow the instructions of the following video.
+(https://www.youtube.com/watch?v=wgJLSu5wAnY)
