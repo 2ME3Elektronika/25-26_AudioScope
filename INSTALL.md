@@ -24,3 +24,5 @@ To know how to do it you can follow the instructions of the following video.
 ### Instalation of Python3 in Raspberry
 Before starting to code, first we will need to have Python3 installed in the Raspberry. To do that we will need to use the following lines inside of the terminal.
 -     sudo apt-get install -y git python3-dev python3-pillow cython3
+
+## Step 3
