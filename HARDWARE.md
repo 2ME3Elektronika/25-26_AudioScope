@@ -13,6 +13,19 @@
    - For powering the LED matrix
    - Minimum 4A for full brightness on 64x64 matrix
 
+### For High-Power Audio (40W Output)
+#### USB Audio Interface
+- Any USB audio interface compatible with Raspberry Pi
+- Recommended: Behringer UCA202 or similar
+- Line-level input capability
+
+#### Menu/Display Components
+**Character LCD 20x4 with I2C backpack** OR **128x64 OLED Display**
+   - For menu system and settings display
+   - I2C interface preferred for easy connection
+   - Options:
+     - HD44780-compatible 20x4 LCD (recommended)
+     - SSD1306 128x64 OLED display
 
 ## Power Considerations
 ### Power Budget
