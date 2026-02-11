@@ -2,7 +2,6 @@
 A professional DIY project for real-time audio frequency spectrum visualization (20Hz-20KHz) using Raspberry Pi 4, Adafruit RGB Matrix HAT, and 64x64 RGB LED Matrix.
 
 ![Python](https://img.shields.io/badge/python-3.7+-blue)
-![License](https://img.shields.io/badge/license-MIT-red)
 ![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi%204%20Model%20B-green)
 # Hardware requirements
 ### Components
