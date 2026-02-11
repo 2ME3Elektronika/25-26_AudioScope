@@ -3,7 +3,7 @@ A professional DIY project for real-time audio frequency spectrum visualization 
 
 ![Python](https://img.shields.io/badge/python-3.7+-blue)
 ![License](https://img.shields.io/badge/license-MIT-red)
-![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi%204-green)
+![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi%204%20Model%20B-green)
 # Hardware requirements
 ### Components
 - Raspberry PI 4 Model B (2GB+ RAM)
