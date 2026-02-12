@@ -21,7 +21,14 @@ The **GRB Matrix 64x64** is an LED matrix display that allows images, animations
 In this project, the GRB Matrix 64x64 is responsible for displaying a **frequency** into a animated **FFT**, working together with the microcontroller that manages the system logic.
 # Hardware 
 Here’s a link to the guide for all the hardware you’ll need for this project
+
 (https://github.com/2ME3Elektronika/25-26_AudioScope/blob/5edb63df820f065019aefbd5968ed1fb7cb71b74/HARDWARE.md)
+
+# Installation Guide
+Here is a guide to follow step by step how we carried out all the processes on the Raspberry Pi
+
+(https://github.com/2ME3Elektronika/25-26_AudioScope/blob/86c601f15b41f4d701bf3a58f58d1a194f8c7cf7/INSTALL.md)
+
 # How To Use It?
 1. Click the power on **Button**.
 2. Select the option you want to use with the **Rotary Encoder** .
