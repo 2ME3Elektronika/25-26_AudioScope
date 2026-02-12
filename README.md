@@ -30,11 +30,22 @@ Here is a guide to follow step by step how we carried out all the processes on t
 (https://github.com/2ME3Elektronika/25-26_AudioScope/blob/86c601f15b41f4d701bf3a58f58d1a194f8c7cf7/INSTALL.md)
 
 # How To Use It?
-1. Click the power on **Button**.
-2. Select the option you want to use with the **Rotary Encoder** .
-3. a
-4. a
-   
+1. Conect the power supply cable to a plug.
+2. Click the power on **Button**.
+3. Select the option you want to use with the **Rotary Encoder**.
+
+Depending of the option you choose there are two routes.
+
+## Microphone test mode
+If you chose the **Microphone Test Mode**:
+4. Talk to the microphone.
+5. See if the display is showing the voice frequencies into FFT.
+
+## Amplifier Test Mode
+If you chose the **Amplifier Test Mode**:
+4.Insert the output of the amplifier into of the inputs of the AudioScope.
+5. See if the display is showing the frequencies into FFT.
+
 # Preview Of The Project
 <img width="384" height="256" alt="ChatGPT Image 19 ene 2026, 12_48_54" src="https://github.com/user-attachments/assets/d82ba941-ecb5-4d3a-a141-7b1822174d4a" />
 <img width="512" height="341" alt="ChatGPT Image 19 ene 2026, 12_45_58_232" src="https://github.com/user-attachments/assets/ea44736c-96c5-456b-b503-1737deb8a6b3" />
