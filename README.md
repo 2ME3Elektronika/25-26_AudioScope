@@ -3,6 +3,21 @@ A professional DIY project for real-time audio frequency spectrum visualization 
 
 ![Python](https://img.shields.io/badge/python-3.7+-blue)
 ![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi%204%20Model%20B-green)
+# Characteristics
+- Visualizes frequencies from **20Hz-20kHz**.
+- **Multiple** available imputs (Jack, RCA, ...).
+- **Microphone** to test that the visualizer works.
+- **Oled I2C display** with multiple functions.
+# What is a **RGB matrix 64x64**
+The GRB Matrix 64x64 is an LED matrix display that allows images, animations, and text to be shown in a colorful and dynamic way. Its main features include:
+
+- **64x64 LED matrix:** Composed of 64 rows and 64 columns, totaling 4096 individual LEDs.
+- **GRB color format:** Each LED is RGB (Red, Green, Blue), but the color data is sent in Green → Red → Blue order, ensuring colors display correctly.
+- **Microcontroller control:** Can be driven with boards like Arduino or Raspberry Pi using specific matrix drivers such as Hub75.
+- **High display capability:** Suitable for showing graphics, animations, and text in real time.
+- **Standard protocol compatibility:** Allows efficient color data transfer and matrix synchronization.
+
+In this project, the GRB Matrix 64x64 is responsible for displaying a **frequency** into a animated **FFT**, working together with the microcontroller that manages the system logic.
 # Hardware requirements
 ### Components
 - Raspberry PI 4 Model B (2GB+ RAM)
