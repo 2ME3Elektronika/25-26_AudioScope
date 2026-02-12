@@ -19,7 +19,9 @@ The **GRB Matrix 64x64** is an LED matrix display that allows images, animations
 - **Standard protocol compatibility:** Allows efficient color data transfer and matrix synchronization.
 
 In this project, the GRB Matrix 64x64 is responsible for displaying a **frequency** into a animated **FFT**, working together with the microcontroller that manages the system logic.
-
+# Hardware 
+Here’s a link to the guide for all the hardware you’ll need for this project
+(https://github.com/2ME3Elektronika/25-26_AudioScope/blob/5edb63df820f065019aefbd5968ed1fb7cb71b74/HARDWARE.md)
 # How To Use It?
 1. Click the power on **Button**.
 2. Select the option you want to use with the **Rotary Encoder** .
