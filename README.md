@@ -38,12 +38,14 @@ Depending of the option you choose there are two routes.
 
 ## Microphone test mode
 If you chose the **Microphone Test Mode**:
+
 4. Talk to the microphone.
 5. See if the display is showing the voice frequencies into FFT.
 
 ## Amplifier Test Mode
 If you chose the **Amplifier Test Mode**:
-4.Insert the output of the amplifier into of the inputs of the AudioScope.
+
+4. Insert the output of the amplifier into of the inputs of the AudioScope.
 5. See if the display is showing the frequencies into FFT.
 
 # Preview Of The Project
