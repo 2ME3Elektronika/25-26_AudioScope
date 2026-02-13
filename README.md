@@ -19,6 +19,7 @@ The **GRB Matrix 64x64** is an LED matrix display that allows images, animations
 - **Standard protocol compatibility:** Allows efficient color data transfer and matrix synchronization.
 
 In this project, the GRB Matrix 64x64 is responsible for displaying a **frequency** into a animated **FFT**, working together with the microcontroller that manages the system logic.
+
 # Hardware 
 Here’s a link to the guide for all the hardware you’ll need for this project
 
