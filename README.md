@@ -55,7 +55,6 @@ If you chose the **Amplifier Test Mode**:
 .
 <img width="500" height="500" alt="c96424af-a062-4ec9-849e-a771dd6d81b2aaaaa" src="https://github.com/user-attachments/assets/a4fe83ec-756d-4063-8d14-ef46db5ed314" />
 
----
 
 ## 🔍 How the System Processes Audio
 To turn raw sound into those dancing bars on your 64x64 matrix, the Raspberry Pi performs several complex operations in milliseconds.
