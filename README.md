@@ -50,5 +50,8 @@ If you chose the **Amplifier Test Mode**:
 5. See if the display is showing the frequencies into FFT.
 
 # Preview Of The Project
-<img width="384" height="256" alt="ChatGPT Image 19 ene 2026, 12_48_54" src="https://github.com/user-attachments/assets/d82ba941-ecb5-4d3a-a141-7b1822174d4a" />
-<img width="512" height="341" alt="ChatGPT Image 19 ene 2026, 12_45_58_232" src="https://github.com/user-attachments/assets/ea44736c-96c5-456b-b503-1737deb8a6b3" />
+
+<img width="1440" height="256" alt="Gemini_Generated_Image_q8y5mxq8y5mxq8y5" src="https://github.com/user-attachments/assets/55f6d91c-b547-4185-a50f-ec43b5f62041" />
+<img width="1301" height="341" alt="c96424af-a062-4ec9-849e-a771dd6d81b2aaaaa" src="https://github.com/user-attachments/assets/a4fe83ec-756d-4063-8d14-ef46db5ed314" />
+
+
