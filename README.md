@@ -55,4 +55,48 @@ If you chose the **Amplifier Test Mode**:
 .
 <img width="500" height="500" alt="c96424af-a062-4ec9-849e-a771dd6d81b2aaaaa" src="https://github.com/user-attachments/assets/a4fe83ec-756d-4063-8d14-ef46db5ed314" />
 
+---
 
+## 🔍 How the System Processes Audio
+To turn raw sound into those dancing bars on your 64x64 matrix, the Raspberry Pi performs several complex operations in milliseconds.
+
+
+
+### The Digital Processing Chain
+1.  **Sampling:** The Pi captures the analog signal (Jack/RCA/Mic) via a USB Sound Card or I2S ADC at a standard rate (usually 44.1kHz).
+2.  **FFT Algorithm:** The system applies a **Fast Fourier Transform**. This mathematical process takes the "messy" time-domain wave and breaks it into its constituent frequencies.
+3.  **Mapping:** Since the matrix has 64 columns, the $20\text{Hz} - 20\text{kHz}$ range is divided into 64 discrete "bins":
+    * **Lower bins (left):** Kick drums and bass guitar.
+    * **Higher bins (right):** Cymbals and hi-hats.
+4.  **Rendering:** The Adafruit RGB Matrix HAT translates these values into PWM (Pulse Width Modulation) signals to drive the HUB75 interface.
+
+---
+
+## 🛠️ Software Architecture
+The system uses a high-performance stack to ensure real-time response without lag:
+
+| Component | Function |
+| :--- | :--- |
+| **Python / C++** | Main logic & Rotary Encoder interrupt handling. |
+| **ALSA / PortAudio** | Linux audio interface to "listen" to the input stream. |
+| **rpi-rgb-led-matrix** | Low-level C++ driver for high-speed LED flickering. |
+| **Luma.OLED** | Library for the I2C menu system and status display. |
+
+---
+
+## 🌟 Expected Visual Modes
+Customize your experience by switching between these visualization styles:
+
+* **Classic Bar Spectrum:** Vertical bars with "peak drop" (a single pixel that stays at the top before falling).
+* **Spectrogram:** A "waterfall" view where frequencies scroll downward over time.
+* **Mirror Mode:** Bars grow from the horizontal center both upward and downward.
+* **Pulse Mode:** The entire matrix pulses in color based on the intensity of the sub-bass.
+
+---
+
+## 🚀 Final Tips for Success
+> [!IMPORTANT]
+> **Power Supply:** A 64x64 matrix can pull up to 4A. Use a **5V 10A** power supply to ensure stability for both the Pi and the LEDs.
+
+* **Noise Floor:** Implement a software **noise gate** to keep the display clean when no music is playing.
+* **Performance:** Use **Raspberry Pi OS Lite** to minimize background tasks and prevent "flickering" on the matrix.
