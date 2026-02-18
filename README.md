@@ -52,7 +52,7 @@ If you chose the **Amplifier Test Mode**:
 # Preview Of The Project
 
 <img width="500" height="500" alt="Gemini_Generated_Image_q8y5mxq8y5mxq8y5" src="https://github.com/user-attachments/assets/55f6d91c-b547-4185-a50f-ec43b5f62041" />
-
+.
 <img width="500" height="500" alt="c96424af-a062-4ec9-849e-a771dd6d81b2aaaaa" src="https://github.com/user-attachments/assets/a4fe83ec-756d-4063-8d14-ef46db5ed314" />
 
 
