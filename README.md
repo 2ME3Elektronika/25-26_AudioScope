@@ -51,7 +51,7 @@ If you chose the **Amplifier Test Mode**:
 <img width="500" height="500" alt="c96424af-a062-4ec9-849e-a771dd6d81b2aaaaa" src="https://github.com/user-attachments/assets/a4fe83ec-756d-4063-8d14-ef46db5ed314" />
 
 
-## 🔍 How the System Processes Audio
+## How the System Processes Audio
 To turn raw sound into those dancing bars on your 64x64 matrix, the Raspberry Pi performs several complex operations in milliseconds.
 
 
@@ -66,7 +66,7 @@ To turn raw sound into those dancing bars on your 64x64 matrix, the Raspberry Pi
 
 ---
 
-## 🛠️ Software Architecture
+## Software Architecture
 The system uses a high-performance stack to ensure real-time response without lag:
 
 | Component | Function |
@@ -78,7 +78,7 @@ The system uses a high-performance stack to ensure real-time response without la
 
 ---
 
-## 🌟 Expected Visual Modes
+## Expected Visual Modes
 Customize your experience by switching between these visualization styles:
 
 * **Classic Bar Spectrum:** Vertical bars with "peak drop" (a single pixel that stays at the top before falling).
@@ -88,7 +88,7 @@ Customize your experience by switching between these visualization styles:
 
 ---
 
-## 🚀 Final Tips for Success
+## Final Tips for Success
 > [!IMPORTANT]
 > **Power Supply:** A 64x64 matrix can pull up to 4A. Use a **5V 10A** power supply to ensure stability for both the Pi and the LEDs.
 
