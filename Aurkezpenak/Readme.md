@@ -1,3 +1,3 @@
-To be able of doing the video with the ia we have used a webpage named as adobe firefly
+To create the video using AI, we used a website called Adobe Firefly.
 
 (https://firefly.adobe.com/)
