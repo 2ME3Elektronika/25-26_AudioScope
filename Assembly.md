@@ -14,4 +14,4 @@ Once the cage is complete, the next step is to assemble all the components in th
 
 And also the schemathic of the link below.
 
-file:///C:/Users/1ME3/Downloads/Gemini_Generated_Image_gebb6ggebb6ggebb.png
+
