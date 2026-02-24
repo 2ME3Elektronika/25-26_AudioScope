@@ -8,4 +8,10 @@ Through the previously provided link, the necessary parts to assemble the box th
 To join the required pieces, acetone was used as the bonding agent.
 
 ## COMPONENT ASSEMBLY 
-Once the cage is done the next step is to assembly all the components
+Once the cage is complete, the next step is to assemble all the components in the link below.
+
+(https://github.com/2ME3Elektronika/25-26_AudioScope/tree/4716233cc459483782bc5c3bb550349c5cebfe78/Material)
+
+And also the schemathic of the link below.
+
+file:///C:/Users/1ME3/Downloads/Gemini_Generated_Image_gebb6ggebb6ggebb.png
