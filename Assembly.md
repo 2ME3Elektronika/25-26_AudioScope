@@ -6,3 +6,6 @@
 Through the previously provided link, the necessary parts to assemble the box that will contain all the project components are available.
 
 To join the required pieces, acetone was used as the bonding agent.
+
+## COMPONENT ASSEMBLY 
+Once the cage is done the next step is to assembly all the components
